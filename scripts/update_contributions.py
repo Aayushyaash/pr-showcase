@@ -83,7 +83,7 @@ def get_default_config() -> dict:
         "descriptions": {
             "featured_merged": "both",
             "more_merged": "tooltip",
-            "in_review": "tooltip",
+            "in_review": "both",
             "star_badges": "tooltip",
         },
     }
