@@ -1,0 +1,20 @@
+# Old references and research
+old ref/
+
+# Python caches and builds
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Tooling caches
+.ruff_cache/
+
+# Editor and OS
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

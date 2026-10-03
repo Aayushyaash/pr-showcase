@@ -1,0 +1,51 @@
+{
+  "data": {
+    "search": {
+      "issueCount": 2,
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": null
+      },
+      "nodes": [
+        {
+          "number": 101,
+          "title": "feat(core): add async event dispatcher",
+          "url": "https://github.com/octocat/super-engine/pull/101",
+          "state": "MERGED",
+          "merged": true,
+          "mergedAt": "2026-09-15T12:00:00Z",
+          "createdAt": "2026-09-14T08:30:00Z",
+          "repository": {
+            "nameWithOwner": "octocat/super-engine",
+            "name": "super-engine",
+            "description": "Next-generation distributed computation framework.",
+            "stargazerCount": 14200,
+            "owner": {
+              "login": "octocat",
+              "avatarUrl": "https://github.com/octocat.png?size=64"
+            }
+          }
+        },
+        {
+          "number": 42,
+          "title": "fix(parser): resolve token stream overflow",
+          "url": "https://github.com/dev-org/code-parser/pull/42",
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "createdAt": "2026-09-20T10:15:00Z",
+          "repository": {
+            "nameWithOwner": "dev-org/code-parser",
+            "name": "code-parser",
+            "description": "Blazing fast AST and bytecode analysis toolkit.",
+            "stargazerCount": 3850,
+            "owner": {
+              "login": "dev-org",
+              "avatarUrl": "https://github.com/dev-org.png?size=64"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
