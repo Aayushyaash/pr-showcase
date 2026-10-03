@@ -1,0 +1,56 @@
+name: 'PR Showcase'
+description: 'Automate your open-source pull request portfolio in your GitHub Profile README.'
+author: 'Aayushyaash'
+branding:
+  icon: 'git-pull-request'
+  color: 'purple'
+
+inputs:
+  github_token:
+    description: 'GitHub token for API access (secrets.GITHUB_TOKEN or PAT)'
+    required: true
+    default: ${{ github.token }}
+  username:
+    description: 'GitHub username whose upstream PRs are showcased'
+    required: false
+    default: ${{ github.repository_owner }}
+  target_file:
+    description: 'Target markdown file to update'
+    required: false
+    default: 'README.md'
+  max_featured:
+    description: 'Maximum number of merged PRs to display before collapsing into drawer'
+    required: false
+    default: '5'
+  show_stars:
+    description: 'Whether to show live GitHub star badges in repository cloud'
+    required: false
+    default: 'true'
+  badge_alignment:
+    description: 'Alignment of metric badges: center | left | right'
+    required: false
+    default: 'center'
+  contributed_to_alignment:
+    description: 'Alignment of contributed-to project star badges: left | center | right'
+    required: false
+    default: 'left'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Run PR Showcase Generator
+      shell: bash
+      env:
+        PR_SHOWCASE_TOKEN: ${{ inputs.github_token }}
+        PR_SHOWCASE_USERNAME: ${{ inputs.username }}
+        PR_SHOWCASE_TARGET_FILE: ${{ inputs.target_file }}
+        PR_SHOWCASE_MAX_FEATURED: ${{ inputs.max_featured }}
+        PR_SHOWCASE_SHOW_STARS: ${{ inputs.show_stars }}
+        PR_SHOWCASE_BADGE_ALIGNMENT: ${{ inputs.badge_alignment }}
+        PR_SHOWCASE_CONTRIBUTED_TO_ALIGNMENT: ${{ inputs.contributed_to_alignment }}
+      run: python3 ${{ github.action_path }}/scripts/update_contributions.py
