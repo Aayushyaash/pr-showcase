@@ -86,41 +86,40 @@ Detailed documentation and technical specifications are available in the [`docs/
 
 ## 🌟 Live Demonstration
 
-Below is an active, live demonstration rendered directly by `pr-showcase`:
+Below is an example of the standard full showcase rendered by `pr-showcase`:
 
 <!-- CONTRIB:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/pull_requests-7-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
-  <img src="https://img.shields.io/badge/merged-4-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
-  <img src="https://img.shields.io/badge/in_review-3-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/pull_requests-12-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
+  <img src="https://img.shields.io/badge/merged-8-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
+  <img src="https://img.shields.io/badge/in_review-4-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
   <img src="https://img.shields.io/badge/projects-3-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
 
 ### Merged upstream
 
-**<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
-- [#1669](https://github.com/backnotprop/plannotator/pull/1669) fix(ai): show friendly error when opencode CLI is unavailable
-- [#1658](https://github.com/backnotprop/plannotator/pull/1658) fix(ui): style Ask AI dropdown options for dark themes
+**<img src="https://github.com/astral-sh.png?size=64" width="16" height="16" valign="middle" alt="astral-sh" /> [`astral-sh/uv`](https://github.com/astral-sh/uv "An extremely fast Python package and project manager, written in Rust.")**<br/><sub>An extremely fast Python package and project manager, written in Rust.</sub>
+- [#4120](https://github.com/astral-sh/uv/pull/4120) feat(resolver): optimize dependency resolution with parallel SAT solver
+- [#4098](https://github.com/astral-sh/uv/pull/4098) fix(cli): preserve custom index credentials on lockfile sync
 
-**<img src="https://avatars.githubusercontent.com/u/141221163?s=64&v=4" width="16" height="16" valign="middle" alt="QwenLM" /> [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code "An open-source AI coding agent that lives in your terminal.")**<br/><sub>An open-source AI coding agent that lives in your terminal.</sub>
-- [#1890](https://github.com/QwenLM/qwen-code/pull/1890) fix(windows): resolve silent failures caused by CRLF line endings (#1868)
+**<img src="https://github.com/neovim.png?size=64" width="16" height="16" valign="middle" alt="neovim" /> [`neovim/neovim`](https://github.com/neovim/neovim "Vim-fork focused on extensibility and usability.")**<br/><sub>Vim-fork focused on extensibility and usability.</sub>
+- [#28410](https://github.com/neovim/neovim/pull/28410) feat(lsp): support dynamic registration for workspace folders
 
-**<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
-- [#3711](https://github.com/rtk-ai/rtk/pull/3711) feat(hook): add native Google Antigravity plugin lifecycle and hook support
+**<img src="https://github.com/BurntSushi.png?size=64" width="16" height="16" valign="middle" alt="BurntSushi" /> [`BurntSushi/ripgrep`](https://github.com/BurntSushi/ripgrep "ripgrep recursively searches directories for a regex pattern while respecting your gitignore.")**<br/><sub>ripgrep recursively searches directories for a regex pattern while respecting your gitignore.</sub>
+- [#2650](https://github.com/BurntSushi/ripgrep/pull/2650) fix(search): handle utf-16 surrogate pairs in binary detection
 
 
 ### In review
 
 <details>
-<summary><b>3 open pull requests across 2 repositories</b></summary>
+<summary><b>4 open pull requests across 2 repositories</b></summary>
 
-**<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**
-- [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
-- [#4335](https://github.com/rtk-ai/rtk/pull/4335) fix(init): migrate legacy Antigravity rules on install and uninstall (#4317)
+**<img src="https://github.com/astral-sh.png?size=64" width="16" height="16" valign="middle" alt="astral-sh" /> [`astral-sh/uv`](https://github.com/astral-sh/uv "An extremely fast Python package and project manager, written in Rust.")**
+- [#4215](https://github.com/astral-sh/uv/pull/4215) feat(build): add wheel tag validation for musllinux targets
 
-**<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**
-- [#1646](https://github.com/backnotprop/plannotator/pull/1646) fix(plan): smooth sticky lane badge expansion and hover sync
+**<img src="https://github.com/neovim.png?size=64" width="16" height="16" valign="middle" alt="neovim" /> [`neovim/neovim`](https://github.com/neovim/neovim "Vim-fork focused on extensibility and usability.")**
+- [#28550](https://github.com/neovim/neovim/pull/28550) fix(ui): prevent cursor flicker during fast terminal redraw
 
 </details>
 
@@ -128,11 +127,17 @@ Below is an active, live demonstration rendered directly by `pr-showcase`:
 ### Contributed to
 
 <p align="left">
-  <a href="https://github.com/QwenLM/qwen-code" title="An open-source AI coding agent that lives in your terminal."><img alt="QwenLM/qwen-code stars" src="https://img.shields.io/github/stars/QwenLM/qwen-code?style=flat-square&logo=github&label=QwenLM/qwen-code&color=1f6feb&labelColor=0d1117" /></a>
-  <a href="https://github.com/backnotprop/plannotator" title="Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click."><img alt="backnotprop/plannotator stars" src="https://img.shields.io/github/stars/backnotprop/plannotator?style=flat-square&logo=github&label=backnotprop/plannotator&color=1f6feb&labelColor=0d1117" /></a>
-  <a href="https://github.com/rtk-ai/rtk" title="CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"><img alt="rtk-ai/rtk stars" src="https://img.shields.io/github/stars/rtk-ai/rtk?style=flat-square&logo=github&label=rtk-ai/rtk&color=1f6feb&labelColor=0d1117" /></a>
+  <a href="https://github.com/astral-sh/uv" title="An extremely fast Python package and project manager, written in Rust."><img alt="astral-sh/uv stars" src="https://img.shields.io/github/stars/astral-sh/uv?style=flat-square&logo=github&label=astral-sh%2Fuv&color=1f6feb&labelColor=0d1117" /></a>
+  <a href="https://github.com/neovim/neovim" title="Vim-fork focused on extensibility and usability."><img alt="neovim/neovim stars" src="https://img.shields.io/github/stars/neovim/neovim?style=flat-square&logo=github&label=neovim%2Fneovim&color=1f6feb&labelColor=0d1117" /></a>
+  <a href="https://github.com/BurntSushi/ripgrep" title="ripgrep recursively searches directories for a regex pattern while respecting your gitignore."><img alt="BurntSushi/ripgrep stars" src="https://img.shields.io/github/stars/BurntSushi/ripgrep?style=flat-square&logo=github&label=BurntSushi%2Fripgrep&color=1f6feb&labelColor=0d1117" /></a>
 </p>
 <!-- CONTRIB:END -->
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
